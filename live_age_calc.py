@@ -3,12 +3,13 @@ from datetime import date
 
 st.title("Age Calculator")
 
-# Input: Date of Birth
-dob = st.date_input("Enter your Date of Birth")
+dob = st.date_input(
+    "Enter your Date of Birth",
+    min_value=date(1900, 1, 1), 
+    max_value=date.today()      
+)
 
-# Calculate age
 today = date.today()
 age = today.year - dob.year - ((today.month, today.day) < (dob.month, dob.day))
 
-# Display result
 st.write(f"Your age is: **{age} years**")
