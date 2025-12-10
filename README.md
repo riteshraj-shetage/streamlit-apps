@@ -1,7 +1,7 @@
 # Streamlit Apps
 
 This repository is a collection of small, interactive applications built with [Streamlit](https://streamlit.io/).  
-Each app is designed to be lightweight, easy to run, and useful for everyday tasks or quick experiments.
+Each app is designed to be lightweight, easy to run, and useful for exploring ideas or quick experiments.
 
 ---
 
