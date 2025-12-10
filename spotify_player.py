@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-st.title("🎧 Spotify Player OTG")
+st.title("🎧 Spotify Player")
 
 # User input: Spotify link (show, episode, artist, album, or track)
 url = st.text_input("Enter a Spotify link:")
